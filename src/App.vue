@@ -12,11 +12,21 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  mounted() {
+    /* Mounted Comments */
+   console.log('Mounted');
+  },
+  created() {
+    /* Mounted Comments */
+    this.m = 'No';
+    console.log('CREATED');
   }
 }
 </script>
 
 <style>
+/* CSS Comments */
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
